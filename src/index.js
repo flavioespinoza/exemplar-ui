@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import HelloWorld from './components/HelloWorld/HelloWorld';
+import HelloFlavio from './components/HelloFlavio/HelloFlavio';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -11,7 +13,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-export HelloWorld from './components/HelloWorld/HelloWorld';
-export HelloFlavio from './components/HelloFlavio/HelloFlavio';
-
-
+export { HelloWorld, HelloFlavio };
