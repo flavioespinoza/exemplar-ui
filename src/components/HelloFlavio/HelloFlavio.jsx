@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-const HelloWorld = (props) => {
+const HelloFlavio = (props) => {
   const children = props.children ? <span>{props.children}</span> : false;
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1>Hello Flavio!</h1>
       {children}
     </div>
   );
 };
-export default HelloWorld;
+export default HelloFlavio;
