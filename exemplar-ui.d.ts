@@ -1,6 +1,7 @@
 // Type definitions for exemplar-ui v0.10.2
 // Project: https://github.com/flavioespinoza/exemplar-ui
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+
 import {Component, HTMLAttributes} from 'react';
 
 declare namespace __ExemplarUi {
